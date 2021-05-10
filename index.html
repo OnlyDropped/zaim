@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!--сергей 9645545474 direza dz102 369075-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="header__link" href="#">
+          <img class="header__link" src="images/logo.svg" alt="">
+        </a>
+        <div class="header__currency">
+          <div class="header__currency-usd">
+            <span class="header__currency-span">$</span>
+            <span class="header__currency-number">76.20</span>
+          </div>
+          <div class="header__currency-euro">
+            <span class="header__currency-span">€</span>
+            <span class="header__currency-number">90.20</span>
+          </div>
+        </div>
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a class="header__link" href="#">Новости</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="#">Финансовая граммотность</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="#">Скидки</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="#">Рейтинги МФО</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__link" href="#">Рейтинги банков</a>
+          </li>
+        </ul>
+        <div class="header__city-link">
+          <img src="images/map-pin.svg" alt="">
+          <a class="header__city" href="#">
+            Россия
+          </a>
+        </div>
+        <button class="header__btn">
+          <img src="images/header/card/menu.svg" alt="">
+        </button>
+      </div>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Курсы валют</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Займы
+            <img src="images/header/chevron-down.svg" alt="">
+          </a>
+          <ul class="header__submenu">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Онлайн займы</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Без отказа</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Без паспорта</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">С просрочками</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">С плохой историей</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">На карту</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">До зарплаты</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">На номер телефона</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Ещё</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Кредиты
+            <img src="images/header/chevron-down.svg" alt="">
+          </a>
+          <ul class="header__submenu">
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Кредитные карты</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Рефинансирование</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Ипотека</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Подбор кредита</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Оплата кредитов</a>
+            </li>
+            <li class="header__submenu-item">
+              <a class="header__submenu-link">Ещё</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Банки</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">МФО</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Дебетовые карты</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Вклады</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">Страхование</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#">РКО</a>
+        </li>
+      </ul>
+      <h1 class="header__title">
+        Подбор финансовых услуг в
+        <a class="header__title-link" href="#">России</a>
+      </h1>
+      <p class="header__text">
+        Рейтинг кредитных компаний и их продуктов, отзывы клиентов, кальуляторы переплат, а так же свежие финансовые
+        новости.
+      </p>
+      <div class="header__box">
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/1.svg" alt="card logo">
+          <p class="header__card-title">Займы</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/2.svg" alt="card logo">
+          <p class="header__card-title">Кредиты</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/3.svg" alt="card logo">
+          <p class="header__card-title">Кредитные карты</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/4.svg" alt="card logo">
+          <p class="header__card-title header__card-title--last">Рефинансирование</p>
+          <p class="header__card-title header__card-title360">Рефинан- <br> сирование</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/5.svg" alt="card logo">
+          <p class="header__card-title">Подбор кредита</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/6.svg" alt="card logo">
+          <p class="header__card-title">Оплата кредитов</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/7.svg" alt="card logo">
+          <p class="header__card-title">Дебетовые карты</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/8.svg" alt="card logo">
+          <p class="header__card-title">Кредитный рейтинг</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/9.svg" alt="card logo">
+          <p class="header__card-title">Ипотека</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/10.svg" alt="card logo">
+          <p class="header__card-title">Вклады</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/11.svg" alt="card logo">
+          <p class="header__card-title">Страхование</p>
+        </div>
+        <div class="header__card">
+          <img class="header__card-img" src="images/header/card/12.svg" alt="card logo">
+          <p class="header__card-title">РКО</p>
+        </div>
+      </div>
+    </div>
+    </header>
+  <main class="main">
+    <section class="currency">
+      <div class="container">
+        <div class="currency__inner">
+          <h2 class="currency__title">
+            Курсы валют в России
+          </h2>
+          <a class="currency__link" href="#">
+            Все курсы валют
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="currency__box">
+          <p class="currency__money">Валюта</p>
+          <p class="currency__buy">Покупка</p>
+          <p class="currency__sale">Продажа</p>
+          <p class="currency__bank">ЦБ РФ</p>
+          <p class="currency__converter">Конвертер валют</p>
+        </div>
+        <div class="currency__wrapper">
+          <span class="currency__usd">USD</span>
+          <div class="currency__block--first">
+            <div class="currency__number">
+              <num class="currency__num">77,41</num>
+              <img src="images/currency/arrow-up.svg" alt="arrow up">
+            </div>
+            <a class="currency__wrapper-link" href="#">Заубер банк</a>
+          </div>
+          <div class="currency__block currency__block--second">
+            <div class="currency__number">
+              <num class="currency__num">77,41</num>
+              <img src="images/currency/arrow-down.svg" alt="arrow down">
+            </div>
+            <a class="currency__wrapper-link" href="#">Ак Барс Банк</a>
+          </div>
+          <div class="currency__block">
+            <div class="currency__number">
+              <num class="currency__num">77,41</num>
+              <img src="images/currency/arrow-up.svg" alt="arrow up">
+            </div>
+            <a class="currency__wrapper-link" href="#">за 1 доллар США</a>
+          </div>
+        </div>
+        <div class="currency__wrapper currency__wrapper--second">
+          <span class="currency__usd">EUR</span>
+          <div class="currency__block--first">
+            <div class="currency__number">
+              <num class="currency__num">91,38</num>
+              <img src="images/currency/arrow-up.svg" alt="arrow up">
+            </div>
+            <a class="currency__wrapper-link" href="#">Заубер банк</a>
+          </div>
+          <div class="currency__block currency__block--second">
+            <div class="currency__number">
+              <num class="currency__num">91,05</num>
+              <img src="images/currency/arrow-down.svg" alt="arrow down">
+            </div>
+            <a class="currency__wrapper-link" href="#">Ак Барс Банк</a>
+          </div>
+          <div class="currency__block">
+            <div class="currency__number">
+              <num class="currency__num">90,81</num>
+              <img src="images/currency/arrow-up.svg" alt="arrow up">
+            </div>
+            <a class="currency__wrapper-link" href="#">за 1 евро</a>
+          </div>
+
+        </div>
+        <a class="currency__link currency__link--last" href="#">
+          Все курсы валют
+          <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="proposal">
+      <div class="container">
+        <div class="proposal__header">
+          <h2 class="proposal__header-title">Лучшие предложения месяца</h2>
+          <a class="proposal__header-link" href="#">
+            Больше предложений
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <nav class="proposal__menu">
+          <a class="proposal__menu-link" href="#">Кредиты</a>
+          <a class="proposal__menu-link" href="#">Займы</a>
+          <a class="proposal__menu-link" href="#">Кредитные карты</a>
+          <a class="proposal__menu-link" href="#">Ипотека</a>
+          <a class="proposal__menu-link" href="#">Дебетовые карты</a>
+        </nav>
+        <div class="proposal__credit">
+          <div class="proposal__card">
+            <img class="proposal__card-img" src="images/proposal/card/1.png" alt="card bank">
+            <h5 class="proposal__card-title">Наличными</h5>
+            <span class="proposal__card-span">9 %</span>
+            <p class="proposal__card-text">Сумма:<sup class="proposal__card-sup">от 100 тыс. до 2.5 млн</sup></p>
+            <p class="proposal__card-text proposal__card-text--last">Срок:<sup class="proposal__card-sup">от 12 до 60
+                мес.</sup></p>
+            <button class="proposal__card-btn">Подать заявку</button>
+          </div>
+          <div class="proposal__card">
+            <img class="proposal__card-img" src="images/proposal/card/2.png" alt="card bank">
+            <h5 class="proposal__card-title">Наличными</h5>
+            <span class="proposal__card-span">9 %</span>
+            <p class="proposal__card-text">Сумма:<sup class="proposal__card-sup">от 100 тыс. до 2.5 млн</sup></p>
+            <p class="proposal__card-text proposal__card-text--last">Срок:<sup class="proposal__card-sup">от 12 до 60
+                мес.</sup>
+            </p>
+            <button class="proposal__card-btn">Подать заявку</button>
+          </div>
+          <div class="proposal__card">
+            <img class="proposal__card-img" src="images/proposal/card/3.png" alt="card bank">
+            <h5 class="proposal__card-title proposal__card-title--credit">Кредитная карта 100 дней без %</h5>
+            <span class="proposal__card-span">9 %</span>
+            <p class="proposal__card-text">Сумма:<sup class="proposal__card-sup">от 100 тыс. до 2.5 млн</sup></p>
+            <p class="proposal__card-text proposal__card-text--last">Срок:<sup class="proposal__card-sup">от 12 до 60
+                мес.</sup>
+            </p>
+            <button class="proposal__card-btn">Подать заявку</button>
+          </div>
+          <div class="proposal__card">
+            <img class="proposal__card-img" src="images/proposal/card/4.png" alt="card bank">
+            <h5 class="proposal__card-title">Наличными</h5>
+            <span class="proposal__card-span">9 %</span>
+            <p class="proposal__card-text">Сумма:<sup class="proposal__card-sup">от 100 тыс. до 2.5 млн</sup></p>
+            <p class="proposal__card-text proposal__card-text--last">Срок:<sup class="proposal__card-sup">от 12 до 60
+                мес.</sup>
+            </p>
+            <button class="proposal__card-btn">Подать заявку</button>
+          </div>
+        </div>
+        <div class="proposal__header">
+          <h2 class="proposal__header-title">Новости финансов, банков и МФО</h2>
+          <a class="proposal__header-link" href="#">
+            Больше новостей
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <nav class="proposal__menu proposal__menu--nav">
+          <a class="proposal__menu-link proposal__menu--item" href="#">Кредиты</a>
+          <a class="proposal__menu-link proposal__menu--item" href="#">Займы</a>
+          <a class="proposal__menu-link proposal__menu--item" href="#">Кредитные карты</a>
+          <a class="proposal__menu-link proposal__menu--item" href="#">Ипотека</a>
+          <a class="proposal__menu-link proposal__menu--item" href="#">Дебетовые карты</a>
+        </nav>
+        <div class="proposal__block">
+          <div class="proposal__block--card">
+            <a class="proposal__block--link" href="#">Россиян обяжут копить на пенсию самостоятельно</a>
+            <div class="proposal__box">
+              <div class="proposal__calendar">
+                <img src="images/proposal/card/calendar.svg" alt="">
+                <span class="proposal__calendar-span">12.11.2020</span>
+              </div>
+              <div class="proposal__clock">
+                <img src="images/proposal/card/clock.svg" alt="">
+                <span class="proposal__clock-span">08:00</span>
+              </div>
+            </div>
+            <a class="proposal__block-link" href="#">ВЫПЛАТЫ</a>
+          </div>
+          <div class="proposal__block--card">
+            <a class="proposal__block--link" href="#">Россиян обяжут копить на пенсию самостоятельно</a>
+            <div class="proposal__box">
+              <div class="proposal__calendar">
+                <img src="images/proposal/card/calendar.svg" alt="">
+                <span class="proposal__calendar-span">12.11.2020</span>
+              </div>
+              <div class="proposal__clock">
+                <img src="images/proposal/card/clock.svg" alt="">
+                <span class="proposal__clock-span">08:00</span>
+              </div>
+            </div>
+            <a class="proposal__block-link" href="#">ВЫПЛАТЫ</a>
+          </div>
+          <div class="proposal__block--card">
+            <a class="proposal__block--link" href="#">Россиян обяжут копить на пенсию самостоятельно</a>
+            <div class="proposal__box">
+              <div class="proposal__calendar">
+                <img src="images/proposal/card/calendar.svg" alt="">
+                <span class="proposal__calendar-span">12.11.2020</span>
+              </div>
+              <div class="proposal__clock">
+                <img src="images/proposal/card/clock.svg" alt="">
+                <span class="proposal__clock-span">08:00</span>
+              </div>
+            </div>
+            <a class="proposal__block-link" href="#">ВЫПЛАТЫ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container">
+        <div class="partners__box">
+          <h2 class="partners__title">Банки-партнеры</h2>
+          <a class="partners__link" href="#">
+            Показать все банки
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="partners__wrapper">
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/1.png" alt="">
+          </a>
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/2.png" alt="">
+          </a>
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/3.png" alt="">
+          </a>
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/4.png" alt="">
+          </a>
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/5.png" alt="">
+          </a>
+          <a class="partners__card" href="#">
+            <img class="partners__img" src="images/partners/6.png" alt="">
+          </a>
+        </div>
+        <a class="partners__link partners__link--end" href="#">
+          Показать все банки
+          <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.962952 10.6L6.5185 5.8L0.962952 1" stroke="#23A1ED" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="mfo">
+      <div class="container">
+        <div class="mfo__box">
+          <h2 class="mfo__title">Отзывы о МФО Москвы</h2>
+          <h2 class="mfo__title mfo__title--second">Последние отзывы о банках и МФО в России</h2>
+        </div>
+        <div class="slider">
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__card">
+                <img src="images/mfo/calendar.svg" alt="">
+                <span class="slider__item-span">12.11.2020</span>
+              </div>
+              <div class="slider__card">
+                <img src="images/mfo/clock.svg" alt="">
+                <span class="slider__item-span">08:00</span>
+              </div>
+              <div class="slider__card slider__card--last">
+                <img src="images/mfo/house.svg" alt="">
+                <span class="slider__item-span slider__item-span--active">Moneza</span>
+              </div>
+              <div class="slider__rateYo">
+                <span class="slider__rateYo-text">4 из 5</span>
+                <img src="images/mfo/stars.svg" alt="">
+              </div>
+            </div>
+            <p class="slider__subtitle">Пользовалась один раз</p>
+            <p class="slider__title">Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и
+              профессионально. Спасибо таким отзывчивым и
+              хорошим сотрудникам!</p>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__card">
+                <img src="images/mfo/calendar.svg" alt="">
+                <span class="slider__item-span">12.11.2020</span>
+              </div>
+              <div class="slider__card">
+                <img src="images/mfo/clock.svg" alt="">
+                <span class="slider__item-span">08:00</span>
+              </div>
+              <div class="slider__card slider__card--last">
+                <img src="images/mfo/house.svg" alt="">
+                <span class="slider__item-span slider__item-span--active">Moneza</span>
+              </div>
+              <div class="slider__rateYo">
+                <span class="slider__rateYo-text">4 из 5</span>
+                <img src="images/mfo/stars.svg" alt="">
+              </div>
+            </div>
+            <p class="slider__subtitle">Пользовалась один раз</p>
+            <p class="slider__title">Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и
+              профессионально. Спасибо таким отзывчивым и
+              хорошим сотрудникам!</p>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__card">
+                <img src="images/mfo/calendar.svg" alt="">
+                <span class="slider__item-span">12.11.2020</span>
+              </div>
+              <div class="slider__card">
+                <img src="images/mfo/clock.svg" alt="">
+                <span class="slider__item-span">08:00</span>
+              </div>
+              <div class="slider__card slider__card--last">
+                <img src="images/mfo/house.svg" alt="">
+                <span class="slider__item-span slider__item-span--active">Moneza</span>
+              </div>
+              <div class="slider__rateYo">
+                <span class="slider__rateYo-text">4 из 5</span>
+                <img src="images/mfo/stars.svg" alt="">
+              </div>
+            </div>
+            <p class="slider__subtitle">Пользовалась один раз</p>
+            <p class="slider__title">Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и
+              профессионально. Спасибо таким отзывчивым и
+              хорошим сотрудникам!</p>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info">
+              <div class="slider__card">
+                <img src="images/mfo/calendar.svg" alt="">
+                <span class="slider__item-span">12.11.2020</span>
+              </div>
+              <div class="slider__card">
+                <img src="images/mfo/clock.svg" alt="">
+                <span class="slider__item-span">08:00</span>
+              </div>
+              <div class="slider__card slider__card--last">
+                <img src="images/mfo/house.svg" alt="">
+                <span class="slider__item-span slider__item-span--active">Moneza</span>
+              </div>
+              <div class="slider__rateYo">
+                <span class="slider__rateYo-text">4 из 5</span>
+                <img src="images/mfo/stars.svg" alt="">
+              </div>
+            </div>
+            <p class="slider__subtitle">Пользовалась один раз</p>
+            <p class="slider__title">Добрый день. Мне закрыли карту, сделали новый договор. Всё очень быстро и
+              профессионально. Спасибо таким отзывчивым и
+              хорошим сотрудникам!</p>
+          </div>
+        </div>
+        <button class="mfo__btn">Оставить отзыв</button>
+      </div>
+    </section>
+
+    <section class="seo">
+      <div class="container">
+        <h3 class="seo__title">
+          Финансовый портал Займ.me
+        </h3>
+        <p class="seo__text">Займ.me — финансовый портал, созданный в 2017 году для быстрого и понятного получения
+          информации о доступных микрозаймах
+          и кредитах в городах России.</p>
+        <p class="seo__text se">У нас представлены самые надежные микрофинансовые организации (МФО) и банки с
+          действующими
+          лицензиями Центрального
+          Банка, так же их финансовые продукты. Некоторые бояться оформить микрозайм, не понимая выгоды и безопасности
+          этого
+          действия. На нашем сайте доступна полезная информация о том, как правильно выбрать, оформить и получить
+          заёмные
+          средства, чего избегать, а на что обратить внимание при оформлении денег. У нас представлены не только
+          финансовые
+          продукты, но и огромный набор полезных материалов, таких как:</p>
+        <ul class="seo__list">
+          <li class="seo__list-item">​новости финансов, экономики, а так же самих микрофинансовых компаний и банков;
+          </li>
+          <li class="seo__list-item">обзоры изменений законодательства в сфере микрофинансирования и кредитования;
+          </li>
+          <li class="seo__list-item">обзоры личных кабинетов финансовых компаний;</li>
+          <li class="seo__list-item">актуальные советы будущим заёмщикам;</li>
+          <li class="seo__list-item">отзывы о финансовых компаниях.</li>
+        </ul>
+      </div>
+      <div class="seo__numbers">
+        <div class="container">
+          <div class="seo__box">
+            <div class="seo__card">
+              <span class="seo__card-number">8</span>
+              <p class="seo__card-text">федеральных и региональных банков</p>
+            </div>
+            <div class="seo__card">
+              <span class="seo__card-number">44</span>
+              <p class="seo__card-text">микрофинансовых компаний</p>
+            </div>
+            <div class="seo__card">
+              <span class="seo__card-number">33</span>
+              <p class="seo__card-text">потребительских займов</p>
+            </div>
+            <div class="seo__card">
+              <span class="seo__card-number">20</span>
+              <p class="seo__card-text">кредитов физическим лицам</p>
+            </div>
+            <div class="seo__card">
+              <span class="seo__card-number">505</span>
+              <p class="seo__card-text">отзывов о кредитных организациях</p>
+            </div>
+            <div class="seo__card">
+              <span class="seo__card-number">495</span>
+              <p class="seo__card-text">новостей экономики и финансов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h3 class="seo__title">
+          Наш сервис призван предостеречь будущих заёмщиков от неверных шагов
+        </h3>
+        <p class="seo__text">Не важно, в какой точке страны Вы находитесь, если у Вас есть доступ к сети интернет.
+          Возможность получить денежные
+          средства онлайн никогда так не облегчала жизнь людей, находящихся в сложной финансовой ситуации. На нашем
+          сайте так же
+          подобраны и предложения по займам от финансовых компаний. Вместе с обилием предложений и условий по продуктам
+          компаний,
+          мы собрали информацию от реальных замещиков и клиентов этих компаний, благодаря которой Вы можете принять для
+          себя
+          решение, брать или не брать деньги у понравившегося кредитора. Кроме того, у Вас есть шанс самостоятельно
+          рассказать
+          другим людям об опыте взаимодействия с той или иной финансовой организацией.</p>
+        <h3 class="seo__list-title">
+          Главные условия одобрения микрозайма или крупного кредита:
+        </h3>
+        <ol class="seo__items">
+          <li class="seo__items-item">Оформляете заявку на сайте Манимен.</li>
+          <li class="seo__items-item">Подтверждаете свои данные в личном кабинете</li>
+          <li class="seo__items-item">Ожидаете одобрения.</li>
+        </ol>
+        <p class="seo__text">
+          Компании, размещенные на нашем сайте предоставлют микрозаймы без справок и поручителей, пенсионерам и
+          студентам,
+          наличными и онлайн. Все их предложения Вы можете отфильтровать по важным для Вас параметрам и выбрать лучший
+          вариант
+          получения заемных денежных средств для себя.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a class="footer__link" href="#">
+          <img src="images/logo.svg" alt="logo footer">
+        </a>
+        <p class="footer__copyright">© 2017 - 2020 Займ.me Все права защищены.</p>
+        <div class="footer__social">
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-yandex" src="images/footer/social/yandex__zen.svg" alt="">
+          </a>
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-vk" src="images/footer/social/vk.svg" alt="">
+          </a>
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-facebook" src="images/footer/social/facebook.svg" alt="">
+          </a>
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-twitter" src="images/footer/social/twitter.svg" alt="">
+          </a>
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-instagram" src="images/footer/social/instagram.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="footer__info">
+        <ul class="footer__info-items">
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">О нас</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Контакты</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Вакансии</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Отзывы</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Редакция</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Редакционная политика</a>
+          </li>
+          <li class="footer__info-item">
+            <a class="footer__info-link" href="#">Наша компенсация</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__inner">
+        <ul class="footer__inner-items">
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Кредитные карты</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Лучшие кредитные карты</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Кредитные карты без отказа</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Калькулятор кредитной карты</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Дебетовые карты</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Карты с бесплатным обслуживанием</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Карты с доставкой на дом</a>
+          </li>
+        </ul>
+        <ul class="footer__inner-items">
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Карты рассрочки</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Лучшие карты рассрочки</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Карты рассрочки без отказа</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Калькулятор рассрочки</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Кредиты наличными</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Кредиты наличными на карту</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Калькулятор кредита</a>
+          </li>
+        </ul>
+        <ul class="footer__inner-items">
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Рефинансирование</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Калькулятор рефинансирования</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Автокредиты</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Кредитная история</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Микрозайм</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">Калькулятор займов</a>
+          </li>
+          <li class="footer__inner-item">
+            <a class="footer__inner-link" href="#">РКО для бизнеса</a>
+          </li>
+        </ul>
+        <div class="footer__contact">
+          <ul class="footer__contact-mail">
+            <li class="footer__contact-email">Наша почта</li>
+            <a class="footer__contact-info" href="#">
+              <img src="images/footer/contact/mail.svg" alt="">
+              mailbox@zaym.me
+            </a>
+          </ul>
+          <ul class="footer__contact-mail">
+            <li class="footer__contact-email">Телефон</li>
+            <a class="footer__contact-info" href="#">
+              <img src="images/footer/contact/phone.svg" alt="">
+              8 (800) 551-72-55
+            </a>
+          </ul>
+          <ul class="footer__contact-mail">
+            <li class="footer__contact-email">Режим работы</li>
+            <p class="footer__contact-info">
+              <img src="images/footer/contact/clock.svg" alt="">
+              Круглосуточнp
+            </p>
+          </ul>
+          <ul class="footer__contact-mail">
+            <li class="footer__contact-email">Телефон</li>
+            <a class="footer__contact-info" href="#">
+              <img src="images/footer/contact/phone.svg" alt="">
+              8 (800) 551-72-55
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-text">Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookie,
+          в объеме и целях, изложенных в <a class="footer__bottom-link" href="#">Политика
+            конфиденциальности</a>, <a class="footer__bottom-link" href="#">Пользовательское соглашение</a> </div>
+        <p class="footer__bottom-description">
+          ИП Булатов Р.О. ИНН: 423082922740. ОГРНИП: 318420500081301. Содержание сайта не является рекомендацией или
+          офертой, вся
+          информация носит ознакомительный характер.
+          При использовании материалов гиперссылка на Займ.me обязательна.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

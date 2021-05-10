@@ -1,0 +1,675 @@
+@media screen and (max-width: 1024px) {
+  .header {
+    &__link {
+      font-size: 13px;
+      color: #535353;
+    }
+    &__city {
+      display: none;
+    }
+    &__menu-link {
+      font-size: 16px;
+    }
+    &__card {
+      max-width: 147px;
+      padding: 13px 40px 14px 13px;
+      margin-bottom: 22px;
+    }
+    &__card-img {
+      margin-bottom: 36px;
+    }
+  }
+  .currency {
+    padding: 33px 0 57px;
+    &__converter {
+      display: none;
+    }
+    &__wrapper-link {
+      display: none;
+    }
+  }
+  .proposal {
+    padding-bottom: 35px;
+    &__credit {
+      flex-wrap: wrap;
+    }
+    &__card {
+      width: 332px;
+      margin: 0 auto 15px;
+    }
+    &__block {
+      flex-direction: column;
+    }
+    &__block--card {
+      background-size: cover;
+      margin: 0 auto 15px;
+    }
+  }
+  .partners {
+    padding: 38px 0 76px;
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__card {
+      width: 33%;
+      margin-bottom: 10px;
+    }
+  }
+  .seo {
+    &__box {
+      flex-wrap: wrap;
+    }
+    &__card {
+      width: 33%;
+      margin-bottom: 10px;
+    }
+  }
+  .footer {
+    padding: 25px 0 36px;
+    &__link {
+      display: none;
+    }
+    &__copyright {
+      margin-left: 0;
+    }
+    &__info {
+      padding-bottom: 7px;
+      margin-bottom: 12px;
+    }
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__inner-items {
+      width: 33%;
+    }
+    &__contact {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .slick-next {
+    right: -5px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .header {
+    &__menu {
+      display: none;
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      margin-left: 0;
+      top: -16px;
+      right: 0px;
+      width: 360px;
+      background: darkkhaki;
+      transform: translateY(-300%);
+      transition: all 0.7s;
+      height: 100vh;
+      position: fixed;
+      z-index: 99;
+    }
+    &__menu--active {
+      transform: translateY(0%);
+    }
+    &__menu-item + .header__menu-item {
+      margin-left: 0px;
+    }
+    &__menu-link {
+      margin-left: 0;
+      font-size: 16px;
+      line-height: 140%;
+      color: $title;
+      padding-top: 12px;
+      padding-bottom: 17px;
+      border-bottom: 0.5px solid #8a8a8a;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__submenu {
+      display: block;
+    }
+    &__btn {
+      z-index: 999;
+      cursor: pointer;
+    }
+    & .header__submenu {
+      display: flex;
+      flex-direction: column;
+    }
+    & .header__submenu-link {
+      font-size: 15px;
+      color: black;
+    }
+    &__nav {
+      display: none;
+    }
+    &__currency {
+      margin-right: auto;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__city-linkimg {
+      display: none;
+    }
+    &__card {
+      width: 165px;
+      padding: 21px 15px 10px 16px;
+      margin-bottom: 23px;
+      display: flex;
+    }
+    &__card-title {
+      line-height: 18px;
+    }
+    &__card-title--last {
+      display: none;
+    }
+    &__card-title360 {
+      display: block;
+    }
+    &__city-link {
+      display: none;
+    }
+    &__card-img {
+      margin-bottom: 5px;
+    }
+    &__btn {
+      display: block;
+      padding: 0px;
+      border: none;
+      background-color: inherit;
+    }
+  }
+  .currency {
+    padding: 26px 0 65px;
+    &__title {
+      font-size: 25px;
+      line-height: 29px;
+    }
+    &__converter {
+      display: none;
+    }
+    &__money,
+    &__buy,
+    &__sale,
+    &__bank {
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+      color: #535353;
+    }
+    &__money {
+      margin-right: 165px;
+    }
+    &__box {
+      padding-bottom: 15px;
+    }
+    &__usd {
+      font-size: 20px;
+      line-height: 23px;
+      margin-right: 182px;
+    }
+    &__wrapper-link {
+      display: none;
+    }
+    &__num {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+  .proposal {
+    padding: 37px 0 31px;
+    &__header-title {
+      font-size: 25px;
+      line-height: 29px;
+    }
+    &__credit {
+      flex-wrap: wrap;
+      grid-gap: 25px;
+    }
+    &__block {
+      flex-wrap: wrap;
+      grid-gap: 25px;
+    }
+    &__block--card {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .partners {
+    padding: 24px 0 46px;
+    &__title {
+      font-size: 25px;
+      line-height: 26px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+    &__wrapper {
+      flex-wrap: wrap;
+      grid-gap: 20px;
+    }
+    &__card {
+      transition: all 0.6s;
+    }
+    &__card:hover {
+      box-shadow: 10px 10px 24px rgba(128, 147, 174, 0.4);
+    }
+  }
+  .mfo {
+    padding: 30px 0 25px;
+    &__title {
+      font-size: 25px;
+      margin-bottom: 28px;
+    }
+  }
+  .slider__card--last {
+    display: none;
+  }
+  .slider__item {
+    padding: 13px 12px 24px 13px;
+  }
+  .slick-next {
+    right: -7px;
+  }
+  .seo {
+    padding: 48px 0px 7px;
+    &__title {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    &__text {
+      font-size: 15px;
+    }
+    &__list-item {
+      font-size: 15px;
+    }
+    &__box {
+      padding: 54px 0 57px;
+      flex-wrap: wrap;
+      row-gap: 75px;
+    }
+    &__card {
+      width: 33%;
+    }
+    &__card-text {
+      max-width: 164px;
+      font-size: 16px;
+    }
+    &__items-item {
+      margin-bottom: 16px;
+      padding-left: 0px;
+      line-height: 28px;
+    }
+  }
+  .footer {
+    padding: 25px 0px 43px;
+    &__link {
+      display: none;
+    }
+    &__copyright {
+      margin-left: 0px;
+    }
+    &__info {
+      padding-bottom: 7px;
+      border-bottom: 0.5px solid #c4c4c4;
+      margin-bottom: 19px;
+    }
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__contact-mail {
+      width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .header {
+    padding: 12px 0 23px;
+    background: linear-gradient(
+      27.45deg,
+      rgba(0, 158, 226, 0.5) 12.55%,
+      rgba(12, 179, 181, 0.65) 31.74%,
+      rgba(32, 214, 107, 0.59) 44.68%,
+      rgba(255, 255, 255, 0) 60.13%
+    );
+    &__nav {
+      position: absolute;
+      top: 0px;
+      /* display: block; */
+      right: 0px;
+      left: 0px;
+      display: block;
+      text-align: center;
+      background-color: grey;
+      transform: translateY(-300%);
+      transition: all 0.6s;
+    }
+    &__nav--active {
+      transform: translateY(0%);
+    }
+    &__nav-item {
+      margin-bottom: 20px;
+    }
+    &__nav-item + .header__nav-item {
+      margin-left: 0px;
+    }
+    &__top {
+      justify-content: flex-start;
+      margin-bottom: 25px;
+    }
+
+    &__city-link {
+      display: none;
+    }
+    &__menu {
+      display: none;
+    }
+    &__title {
+      font-size: 25px;
+    }
+    &__text {
+      line-height: 22px;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+    &__card {
+      display: flex;
+      background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+      box-shadow: 10px 10px 24px rgba(211, 215, 220, 0.7);
+      border-radius: 10px;
+      width: 151px;
+      padding: 21px 13px 13px 13px;
+      margin-bottom: 10px;
+    }
+    &__card-title {
+      font-size: 15px;
+      white-space: normal;
+      margin-left: 13px;
+    }
+    &__card-title--last {
+      display: none;
+    }
+    &__card-title360 {
+      display: block;
+    }
+    &__link {
+      margin-left: -8px;
+      z-index: 9999;
+      color: #fff8dc;
+    }
+    &__currency {
+      margin-left: -5px;
+    }
+    &__currency-usd {
+      margin-right: 2px;
+    }
+    &__currency-span {
+      margin-right: 0px;
+    }
+    &__btn {
+      margin-left: auto;
+      padding: 0;
+      border: none;
+      background-color: inherit;
+      z-index: 9999;
+    }
+  }
+  .currency {
+    padding: 29px 0 14px;
+    &__title {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 25px;
+    }
+    &__link {
+      display: none;
+    }
+    &__link--last {
+      display: block;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    &__box {
+      justify-content: space-between;
+      margin-bottom: 17px;
+    }
+    &__money,
+    &__buy,
+    &__sale,
+    &__bank {
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.02em;
+      color: #535353;
+      margin-right: 0;
+    }
+    &__converter {
+      display: none;
+    }
+    &__num {
+      font-size: 13px;
+      line-height: 15px;
+      margin-right: -3px;
+    }
+    &__usd,
+    &__block--first,
+    &__block--second {
+      margin-right: 0;
+    }
+    &__usd {
+      font-size: 20px;
+      line-height: 23px;
+      margin-right: 46px;
+    }
+    &__block--first {
+      margin-right: 49px;
+    }
+    &__wrapper-link {
+      display: none;
+    }
+    &__block--second {
+      margin-right: 59px;
+    }
+    &__wrapper--second {
+      margin-bottom: 25px;
+    }
+  }
+  .proposal {
+    padding: 20px 0 20px;
+    &__header-title {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 12px;
+    }
+    &__header-link {
+      display: none;
+    }
+    &__menu {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__menu-link {
+      font-size: 14px;
+      line-height: 16px;
+      margin-right: 37px;
+    }
+    &__credit {
+      flex-direction: column;
+      align-items: center;
+      grid-gap: 15px;
+    }
+    &__block {
+      flex-direction: column;
+      grid-gap: 15px;
+    }
+    &__block--card {
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 22px 63px 15px 15px;
+    }
+  }
+  .partners {
+    padding: 20px 0px 19px;
+    &__box {
+      margin-bottom: 12px;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 23px;
+    }
+    &__wrapper {
+      justify-content: center;
+      flex-wrap: wrap;
+      grid-row-gap: 10px;
+      margin-bottom: 12px;
+    }
+    &__link {
+      display: none;
+    }
+    &__link--end {
+      font-size: 14px;
+      display: block;
+    }
+  }
+  .mfo {
+    padding: 25px 0px 25px;
+    &__title {
+      display: none;
+    }
+    &__title--second {
+      display: block;
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 12px;
+    }
+  }
+  .slider {
+    &__item {
+      width: 622px;
+      border-radius: 10px;
+      padding: 21px 14px 17px 15px;
+      margin-right: 0px;
+    }
+    &__item-span {
+      font-family: "Roboto-Regular", sans-serif;
+      font-size: 13px;
+      line-height: 35px;
+      color: #8a8a8a;
+      margin-left: 5px;
+    }
+    &__card--last {
+      margin-right: auto;
+      display: none !important;
+    }
+    &__subtitle {
+      line-height: 15px;
+    }
+    &__title {
+      font-size: 13px;
+      line-height: 22px;
+    }
+  }
+  .seo {
+    padding: 19px 0 36px;
+    &__title {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    &__list-item {
+      font-size: 15px;
+    }
+    &__box {
+      flex-wrap: wrap;
+      grid-row-gap: 30px;
+      padding-top: 25px;
+      padding-bottom: 32px;
+    }
+    &__card {
+      width: 50%;
+    }
+    &__card-number {
+      font-size: 25px;
+      line-height: 22px;
+      margin-bottom: 11px;
+    }
+    &__card-text {
+      line-height: 22px;
+      font-size: 15px;
+    }
+    &__numbers {
+      background: linear-gradient(88.41deg, rgba(35, 161, 237, 0.54) 55.9%, rgba(34, 212, 127, 0.6) 98.69%), #009ee2;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  .footer {
+    padding-top: 8px;
+    padding-bottom: 27px;
+    &__link {
+      display: none;
+    }
+    &__top {
+      flex-direction: column;
+    }
+    &__copyright {
+      margin-left: 0px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+    &__social {
+      margin-left: -117px;
+    }
+    &__info {
+      padding-bottom: 11px;
+      margin-bottom: 8px;
+    }
+    &__info-items {
+      flex-wrap: wrap;
+    }
+    &-link {
+      font-size: 13px;
+      line-height: 20px;
+    }
+    .footer__inner {
+      flex-wrap: wrap;
+    }
+    &__inner-items {
+      width: 50%;
+    }
+    &__contact {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-top: 0.5px solid #c4c4c4;
+    }
+    .footer__inner-link {
+      font-size: 13px;
+      line-height: 20px;
+    }
+    &__contact-email {
+      text-indent: 31px;
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+    &__contact-info {
+      font-size: 13px;
+      line-height: 25px;
+    }
+    &__bottom {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

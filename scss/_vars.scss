@@ -1,0 +1,40 @@
+$accent: #EBEDF3;
+$default: #000000;
+$title: #000;
+//$colorBtn: #ffffff;
+$bg: #FFFFFF;
+$link: #23A1ED;
+$error: #FE7F0B;
+$errorAccent: #1F78B4;
+//
+%robotoRegular-400 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+%robotoMedium-500 {
+  font-family: "Roboto-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+%robotoBold-700 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+%robotoBlack-900 {
+  font-family: "Roboto-Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+//%btn {
+//  @extend %roboto-400;
+//  text-transform: uppercase;
+//  letter-spacing: 0.2em;
+//  color: #ffffff;
+//  padding: 12px 26px;
+//  background-color: $accent;
+//  box-shadow: 0px 10px 25px 0px rgba(254, 62, 87, 0.3);
+//  border: none;
+//}
+//
